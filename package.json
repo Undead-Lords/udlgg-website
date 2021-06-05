@@ -5,22 +5,21 @@
   "author": "Scree",
   "private": true,
   "scripts": {
-      "dev": "nuxt --port 8810",
-      "build": "nuxt build",
-      "start": "nuxt start --port 8801",
-      "generate": "nuxt generate",
-      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-      "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-      "precommit": "npm run lint"
-    },
+    "dev": "nuxt --port 8002",
+    "build": "nuxt build",
+    "start": "nuxt start --port 8000",
+    "generate": "nuxt generate"
+  },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "@nuxtjs/axios": "^5.3.6"
+    "@nuxtjs/axios": "*",
+    "moment": "*",
+    "nuxt": "*"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.4"
+    "@nuxtjs/tailwindcss": "^4.1.2",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
+    "postcss": "^8.3.0",
+    "prettier": "*"
   }
 }
