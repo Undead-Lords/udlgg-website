@@ -14,7 +14,7 @@ export default {
       { property: 'og:site_name', content: 'Undead Lords' },
       {
         property: 'og:description',
-        content: 'Harvesting Souls Since 1994.'
+        content: 'All Souls Property of Myrkul.'
       },
       {
         property: 'og:image',
